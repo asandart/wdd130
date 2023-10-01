@@ -16,10 +16,7 @@
       --navigation-hover-background-color: #228B22;
   }
 
-  h1, h2 {
-    font-family: var(black);
-    color: var(black);
-  }
+  
 
   p {
     padding: 15px; 
