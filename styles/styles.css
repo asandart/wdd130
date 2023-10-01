@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
+
 main {
     max-width: 840px;
 }
-
+    
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -23,9 +24,11 @@ h1 {
     color: steelblue;
 }
 
+
 p {
-    padding: 0; 
+    padding: 0px;
 }
+
 
 aside img {
     width: 200px;
@@ -38,33 +41,37 @@ footer {
     text-align: center;
 }
 
-/* Class Selectors */
+/* -------------------------------------
+   Class Selectors
+---------------------------------------- */
 .box {
     margin: 1rem;
-    border: 1px solid #ddd;
     padding: 1rem;
-    background-color: burlywood;
-    color: #333;
+    background-color: #e917bb; 
+    color: #333; 
+    border: 1px solid #ddd;
 }
-
+ 
 main img {
-    width: 150px;
-    height: auto;
+    width: 150px ;
+    height: auto ;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow:  0  0 30px gray;
     float: right;
 }
-
 aside {
-    width: 25em;
+    margin: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    background-color: #eee;
+    color: #333;
     text-align: center;
     position: relative;
 }
 
 aside h2 {
     position: absolute;
-    top: 50px;
-    left: 150px; 
+    top: 2px; 
+    left: 300px; /
 }
-
