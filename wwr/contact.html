@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Splash Rapids Adventures - About White Water Rafting</title>
+    <title>Contact - Splash Rapids Adventures</title>
     <meta name="description" content="Come join us and learn about as the germans say it 'aufregend' world of white water rafting here with us at Splash Rapids Adventures">
     <meta name="author" content="Asanda Magubeni">
     <link rel="stylesheet" href="styles/rafting.css">
@@ -113,8 +113,7 @@
 
             </select>
             </div>
-            <label for="message">
-                
+            <label for="message">    
 <P>Hello,</P>
 <p>I'm planning a rafting trip with a group of friends in August, and I have a few questions regarding reservations. Could you please provide me with the following information:</p>
 
@@ -126,8 +125,19 @@
 <p> Cheyenne Ibo</p>
 </label>
 <div class="form-item" column1>
+        <textarea id="message" name="message" rows="5" cols="50"></textarea>
+    </div>
+    <label>Preferred Contact Method:</label>
+        <div class="form-item" column1>
+            <input type="radio" id="contact-method-email" name="contact-method" value="Email">
+            <label for="contact-method-email">asasplashrapids.com</label>
+            <input type="radio" id="contact-method-phone" name="contact-method" value="Phone">
+            <label for="contact-method-phone">(211) 763-6745</label>
+        </div>
+    </div>
     <label for="pet">Please subscribe to the monthly letter</label>
-        <input type="checkbox" id="subscribe" name="subscribe"> 
+    <div class="form-item" column1>
+    <input type="checkbox" id="subscribe" name="subscribe"> 
     </div>
         </fieldset>
         </form>
