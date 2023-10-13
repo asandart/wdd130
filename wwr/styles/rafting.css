@@ -183,3 +183,109 @@ footer {
      font-variant: small-caps;
 
   }
+  /* Employee Profile Section */
+.employees-profile-section {
+  text-align: center;
+}
+
+.employee-figure {
+  display: inline-block;
+  margin: 10px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+/* Contact Form Styling */
+form {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+}
+
+legend {
+  font-weight: bold;
+}
+
+.form-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.form-item label {
+  width: 150px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.form-item select {
+  width: 100%;
+}
+
+#message {
+  width: 100%;
+  height: 100px;
+}
+
+
+button[type="submit"] {
+  background-color: #bc6ed4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #005a9c;
+}
+
+
+footer {
+  background-color:gray;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  margin: 0 10px;
+}
+
+form{
+  width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 0.5rem;
+  background-color: beige;
+  display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(16, 119, 216, 0.2);
+    padding: 1rem;
+}
+
+legend {
+ padding: 0.5rem;
+ color:rgb(16, 104, 219);
+ font-size: 1.3em;
+}
+
+label, input, button, select, textarea{
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
