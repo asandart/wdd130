@@ -105,7 +105,7 @@ nav{
 
  img {
     margin: 0 0.25rem 0 1rem;
-	width: 80px;
+	width: 150px;
 	height: auto;   
 }
 
@@ -287,4 +287,44 @@ legend {
 
 label, input, button, select, textarea{
  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Style the newsletter section */
+.newsletter {
+  text-align: center;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+/* Style the CTA section */
+.cta {
+  text-align: center;
+  background: #0099cc;
+  color: #fff;
+  padding: 40px;
+}
+
+/* Style the grid layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+button:hover, a:hover {
+  background: #0077aa;
 }
